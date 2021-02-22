@@ -77,3 +77,71 @@ body  {
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+
+@keyframes twinkling {
+  0% {
+      opacity: 0.2;
+  }
+  50% {
+      opacity: 1;
+  }
+  80% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 0.2;
+  }
+}
+
+@keyframes rocket {
+  from{
+  right: 20%; 
+  }
+  to {
+  top:33%;
+  right: 75%;
+  }
+}
+
+
+@keyframes mars {
+  from {
+      transform: rotate(0);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes earth {
+  from {
+      transform: rotate(0);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes musk {
+  0% {
+      opacity: 0;
+  }
+  87% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes flag {
+  0% {
+      opacity: 0;
+  }
+  95% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
