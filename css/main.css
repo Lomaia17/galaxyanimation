@@ -194,10 +194,10 @@ body  {
  59%{
    opacity: 0;
  }
- 60% {
+ 68% {
    opacity: 0.5;
  }
- 65%{
+ 75%{
   opacity: 1;
   top: 45%;
   left: 40%;
